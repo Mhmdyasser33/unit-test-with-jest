@@ -1,0 +1,2 @@
+1 - what is unit test
+2 - jest global method like : test|| expect
