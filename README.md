@@ -23,7 +23,7 @@ All unit tests are located in the `__tests__` directory. You can organize your t
 
 Here's an example of a simple unit test for a `utils.js` module:
 
-```javascript
+javascript
 // __tests__/utils.test.js
 
 const utils = require('../utils');
@@ -36,6 +36,7 @@ test('checks if value is greater than 10', () => {
   expect(utils.isGreaterThan10(15)).toBe(true);
   expect(utils.isGreaterThan10(8)).toBe(false);
 });
+
 Running Tests
 Run the tests using the following command:
 npm test
