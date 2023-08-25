@@ -14,9 +14,8 @@ Follow these steps to set up the project and start writing unit tests using Jest
 
 1. Clone this repository to your local machine:
 
-   ```sh
-   git clone https://github.com/your-username/unit-testing-with-jest.git
-   cd unit-testing-with-jest
+   git clone https://github.com/Mhmdyasser33/unit-test-with-jest
+ 
 1 - Install the project dependencies: 
 npm install
 # Writing Unit Tests
