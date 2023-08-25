@@ -20,7 +20,7 @@ Follow these steps to set up the project and start writing unit tests using Jest
 npm install
 # Writing Unit Tests
 All unit tests are located in the __tests__ directory. You can organize your tests by creating files named like filename.test.js or filename.spec.js inside this directory
-##Here's an example of a simple unit test for a utils.js module:
+# Here's an example of a simple unit test for a utils.js module:
   // __tests__/utils.test.js
 
 const utils = require('../utils');
