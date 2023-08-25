@@ -4,24 +4,27 @@ This repository demonstrates how to perform unit testing using Jest, a popular J
 
 ## Getting Started
 
-Follow these steps to set up the project and start writing unit tests using Jest.
-
 ### Prerequisites
 
 - Node.js and npm (Node Package Manager) should be installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. **Clone this repository to your local machine:**
+git clone https://github.com/Mhmdyasser33/unit-test-with-jest
 
-   git clone https://github.com/Mhmdyasser33/unit-test-with-jest
- 
-#Install the project dependencies:  
+2. **Install the project dependencies:**
 npm install
-# Writing Unit Tests
-All unit tests are located in the __tests__ directory. You can organize your tests by creating files named like filename.test.js or filename.spec.js inside this directory
-#Here's an example of a simple unit test for a utils.js module:
 
+
+## Writing Unit Tests
+
+All unit tests are located in the `__tests__` directory. You can organize your tests by creating files named like `filename.test.js` or `filename.spec.js` inside this directory.
+
+Here's an example of a simple unit test for a `utils.js` module:
+
+```javascript
+// __tests__/utils.test.js
 
 const utils = require('../utils');
 
@@ -33,15 +36,30 @@ test('checks if value is greater than 10', () => {
   expect(utils.isGreaterThan10(15)).toBe(true);
   expect(utils.isGreaterThan10(8)).toBe(false);
 });
-# Running Tests
+Running Tests
 Run the tests using the following command:
 npm test
 Jest will discover and execute all test files in the __tests__ directory and provide you with the test results.
-# Configuration
+
+Configuration
 Jest configuration options can be found in the jest.config.js file. You can customize settings such as test environment, test match patterns, and more in this file.
 
-# Continuous Integration
+Continuous Integration
 You can integrate this project with continuous integration (CI) services like Travis CI, GitHub Actions, or CircleCI to automatically run tests on every push or pull request.
 
-# License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to copy and paste this content into your `README.md` file.
+
+
+
+
+
+
+
+
+
+
+
+
