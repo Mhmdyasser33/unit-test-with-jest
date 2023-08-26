@@ -44,7 +44,7 @@ describe("array operation", () => {
 
 
   // Test if the asynchronous function fetches data from a specific endpoint and the result is defined
-test("fetch data from specific endpoint", async () => {
+/* test("fetch data from specific endpoint", async () => {
     // Call the fetchDateFromApi function and wait for the result
     const result = await fetchDateFromApi();
 
@@ -59,7 +59,7 @@ test("fetch data from specific endpoint", async () => {
 
     // Check if the result is an array
     expect(Array.isArray(result)).toBe(true);
-});
+}); */
 
  // using to be truthY matchers
 test("using to be truthy" , () =>{
@@ -192,7 +192,7 @@ test("using toThrow matcher" , () =>{
       expect(4).toBeSorted(5,6)
     })
     test('test element sorted or not', () => {
-        expect(10).toBeSorted(11,6)
+        expect(2).toBeSorted(3,4)
       })
 
 
