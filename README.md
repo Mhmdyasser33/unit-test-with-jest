@@ -14,7 +14,7 @@ This repository demonstrates how to perform unit testing using **Jest**, a popul
    ```bash
    git clone https://github.com/Mhmdyasser33/unit-test-with-jest
 
-Install the project dependencies:
-npm install
+## Install the project dependencies: 
+npm install 
 
    
