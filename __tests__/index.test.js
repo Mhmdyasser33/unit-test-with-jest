@@ -1,4 +1,4 @@
-const check = require("./index") ;
+const check = require("../index") ;
 
 
 test('check num', () => {

@@ -1,4 +1,4 @@
-const checkNum = require("./check") ;
+const checkNum = require("../check") ;
 
  // use describe
  // describe : is a function used to group a related tests together

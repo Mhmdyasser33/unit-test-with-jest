@@ -4,7 +4,7 @@
  * @param {string} [name] - The input name.
  * @returns {string} The processed name or "unknown" if input is undefined.
  */
-const inputRes = require("./inputCheck");
+const inputRes = require("../inputCheck");
 
 describe("check input cases", () => {
   /**

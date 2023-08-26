@@ -2,3 +2,5 @@
 2 - jest global method like : test|| expect
 3 - how to write a document in test code
 4 - use only && skip with test and describe
+5 - using beforeAll and afterAll && beforeEach and afterEach
+6 - matchers

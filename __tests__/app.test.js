@@ -1,4 +1,4 @@
-const sum = require("./app") ;
+const sum = require("../app") ;
 
 /* start using global method */
 
