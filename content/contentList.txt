@@ -4,3 +4,5 @@
 4 - use only && skip with test and describe
 5 - using beforeAll and afterAll && beforeEach and afterEach
 6 - matchers
+7 - code coverage
+8 - mock function

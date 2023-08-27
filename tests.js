@@ -10,5 +10,8 @@ const checkPrime = (num) =>{
     }
     return "prime" ;
 }
-
+let name ;
+ if( name=== "hell"){
+    throw new Error ("this is not allowed name") ;
+ }
 module.exports = checkPrime ;

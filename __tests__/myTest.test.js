@@ -42,3 +42,12 @@ test("expect anything" , () =>{
    expect(arr.some((item) => item > 10)).toBe(true) ;
   })
 
+ // how to use code coverage
+const applyCodeCoverage = () =>{
+return "go to hell"
+}
+
+test("test code coverage" , ()=>{
+  expect(applyCodeCoverage()).toBe("go to hell")
+})
+
